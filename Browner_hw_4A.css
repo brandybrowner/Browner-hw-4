@@ -1,8 +1,102 @@
-.top{
-	width: 1120px;
-	height: 150px;
-	background-color: blue;
-	border-bottom: 15px;
-	border-color: red solid;
+.wrapper{
+	width: 1024px;
+	margin: 0 auto;
 }
 
+header{
+	width: 1024px;
+	height: 200px;
+}
+
+.bar{
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+	width: 150px;
+	height: 20px;
+	padding: 10px;
+	background-color: black;
+	text-align: center;
+
+}
+.nav-link, .links {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  }
+
+.left {
+	float: left;
+	width: 250px;
+	height: 1000px;
+	margin-top: 10px;
+	/*background-color: red;*/
+}
+.links {
+	display: block;
+	width: 200px;
+	height: 30px;
+	padding: 10px;
+	margin: 5px auto;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+#intro{
+	width: 700px;
+}
+
+.staples{
+	width: 300px;
+}
+
+#home{
+	float: left;
+	width: 700px;
+}
+
+.book{
+	float: left;
+	margin-left: 140px
+}
+
+.excerpt{
+	width: 754px;
+	margin: 0 10px 0 10px;
+}
+
+h1{
+	text-align: center;
+}
+
+.top{
+	float: left;
+	width: 734px;
+	height: 200px;
+	padding: 10px;
+	margin: 10px;
+	/*background-color: pink;*/
+}
+.middle{
+	float: left;
+	width: 300px;
+	height: 650px;
+	padding: 10px;
+	margin: 0 33px 0 33px;
+	/*background-color: green;*/
+}
+
+.bottom{
+	clear: both;
+	width: 774px;
+	margin-left: 250px;
+}
+
+ul.includes{
+	list-style-type: none;
+}
+
+ul.features{
+	list-style-type: square;
+}
